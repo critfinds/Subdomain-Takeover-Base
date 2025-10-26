@@ -1,0 +1,7 @@
+{
+  "name": "victim-project",
+  "version": "1.0.0",
+  "dependencies": {
+    "malicious-package": "1.0.0"
+  }
+}

